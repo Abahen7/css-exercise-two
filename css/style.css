@@ -1,6 +1,29 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #f2f2f2;
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 2.07em;
+  line-height: 39.80px;
+  padding-top: 30px;
+}
+
+h3 {
+  font-size: 1.44em;
+  line-height: 27.64px;
+  padding-top: 15px;
+}
+
+p {
+  font-size: 100%;
+  line-height: 20px;
+}
+
+figcaption {
+  font-size: .83em;
 }
 
 nav {
@@ -41,6 +64,12 @@ li {
   float: right;
   padding: 30px;
 }
+
+a { text-decoration: none; }
+a:link { color:#0070BB; }
+a:visited { color:#0070BA; }
+a:hover { color:#0070BC; }
+a:active { color:#0070BD; }
 
 article {
   padding-top: 100px;
